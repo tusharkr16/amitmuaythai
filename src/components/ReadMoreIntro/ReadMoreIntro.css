@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Poppins:wght@100;300;400;700&display=swap");
+
+.readMoreIntro__container {
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin-bottom: 63rem;
+  position: relative;
+}
+
+.readMoreIntro__heading {
+  width: 100%;
+  padding: 3.5rem;
+  text-align: center;
+  background: linear-gradient(#ffffff, #e6ecf5);
+}
+
+.readMoreIntro__heading h1 {
+  font-family: "Open-sans", sans-serif;
+  font-size: 5rem;
+  font-weight: 500;
+  color: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
+  letter-spacing: 2px;
+}
+
+.readMoreIntro__leftContainer {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  margin-top: 3rem;
+  padding: 6rem;
+  width: 60%;
+  height: auto;
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(248, 137, 34) 11.2%,
+    rgb(255, 194, 48) 100.2%
+  );
+  z-index: 2;
+}
+
+.readMoreIntro__leftContainer__heading {
+  font-family: "Open-sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  color: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
+  letter-spacing: 2px;
+  margin-bottom: 3rem;
+}
+
+.readMoreIntro__leftContainer__description {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 100;
+  color: white;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+}
+
+.readMoreIntro__left__leftContainer {
+  position: absolute;
+  top: 128%;
+  right: 10%;
+  margin-top: 3rem;
+  padding: 5rem;
+  width: 50%;
+  height: auto;
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
+  z-index: 2;
+}
+
+.readMoreIntro__left__leftContainer__heading {
+  font-family: "Open-sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  color: whitesmoke;
+  letter-spacing: 2px;
+  margin-bottom: 3rem;
+  /* border: 2px solid blue; */
+}
+
+.planGrid__container {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* border: 2px solid red; */
+}
+
+.planGrid__container__grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 18vh;
+  width: 40%;
+  margin-bottom: 2rem;
+  /* border: 2px solid yellow; */
+}
+
+.fitnessCenterIcon {
+  transform: scale(2.6);
+  margin-right: 3rem;
+  color: white;
+}
+
+.rotateIcon {
+  transform: rotate(-90deg) scale(2.5);
+  margin-right: 3rem;
+  color: white;
+}
+
+.planGrid__container__grid span {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 100;
+  color: whitesmoke;
+  letter-spacing: 2px;
+}
+
+.bannerImageContainer {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./../../assets/Images/backgroundImageReadMorePlanIt.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: aquamarine;
+}

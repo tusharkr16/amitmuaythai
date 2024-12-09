@@ -1,0 +1,232 @@
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.consultingForm__container {
+  padding: 2rem 0;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(#28313b, #485461);
+}
+
+.consultingForm {
+  width: 60%;
+  height: 68vh;
+  padding: 3rem;
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(0, 0, 0) 0%,
+    rgb(50, 50, 50) 99.4%
+  );
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 1rem;
+  position: relative;
+  overflow-y: scroll;
+}
+
+label {
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  font-weight: 600;
+}
+
+.consultingForm__inputs {
+  padding: 2rem;
+}
+
+.consultingForm__input__name {
+  margin-bottom: 1rem;
+}
+
+.consultingForm__input__name label {
+  display: block;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.consultingForm__input__name .firstName__input {
+  margin-right: 2rem;
+}
+
+.consultingForm__input__name input {
+  width: 45%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-bottom: 1px solid rgba(131, 129, 129, 0.226);
+  border-radius: 0.1rem;
+  background-color: transparent;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.consultingForm__input__age {
+  margin-bottom: 1rem;
+}
+
+.consultingForm__input__age label {
+  display: block;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.consultingForm__input__age input {
+  width: 45%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-bottom: 1px solid rgba(131, 129, 129, 0.226);
+  border-radius: 0.1rem;
+  background-color: transparent;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.consultingForm__input__dob {
+  margin-bottom: 1rem;
+}
+
+.consultingForm__input__dob label {
+  display: block;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.consultingForm__input__dob input {
+  width: 45%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-bottom: 1px solid rgba(131, 129, 129, 0.226);
+  border-radius: 0.1rem;
+  background-color: transparent;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.consultingForm__input__phone {
+  margin-bottom: 1rem;
+}
+
+.consultingForm__input__phone label {
+  display: block;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.consultingForm__input__phone input {
+  width: 45%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-bottom: 1px solid rgba(131, 129, 129, 0.226);
+  border-radius: 0.1rem;
+  background-color: transparent;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.consultingForm__input__email {
+  margin-bottom: 1rem;
+}
+
+.consultingForm__input__email label {
+  display: block;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.consultingForm__input__email input {
+  width: 45%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-bottom: 1px solid rgba(131, 129, 129, 0.226);
+  border-radius: 0.1rem;
+  background-color: transparent;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.consultingFomr__input__height {
+  margin-bottom: 1rem;
+}
+
+.consultingFomr__input__height label {
+  display: block;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.consultingFomr__input__height input {
+  width: 45%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-bottom: 1px solid rgba(131, 129, 129, 0.226);
+  border-radius: 0.1rem;
+  background-color: transparent;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.consultingFomr__input__weight {
+  margin-bottom: 1rem;
+}
+
+.consultingFomr__input__weight label {
+  display: block;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.consultingFomr__input__weight input {
+  width: 45%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-bottom: 1px solid rgba(131, 129, 129, 0.226);
+  border-radius: 0.1rem;
+  background-color: transparent;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.consultingForm button {
+  width: 30%;
+  text-align: center;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 0.1rem;
+  background-color: #f5a623;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  outline: none;
+  font-size: 1rem;
+  cursor: pointer;
+  position: absolute;
+  left: 38%;
+  bottom: -128%;
+}

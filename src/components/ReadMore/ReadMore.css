@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Poppins:wght@100;300;400;700&display=swap");
+
+.readMore__container {
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin-bottom: 56rem;
+  position: relative;
+}
+
+.readMore__heading {
+  width: 100%;
+  padding: 3.5rem;
+  text-align: center;
+  background: linear-gradient(#ffffff, #e6ecf5);
+}
+
+.readMore__heading h1 {
+  font-family: "Open-sans", sans-serif;
+  font-size: 5rem;
+  font-weight: 500;
+  color: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
+  letter-spacing: 2px;
+}
+
+.readMore__leftContainer {
+  position: absolute;
+  top: 45%;
+  left: 5%;
+  margin-top: 3rem;
+  padding: 6rem;
+  width: 55%;
+  height: auto;
+
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(248, 137, 34) 11.2%,
+    rgb(255, 194, 48) 100.2%
+  );
+  z-index: 2;
+}
+
+.readMore__leftContainer__heading {
+  font-family: "Open-sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  color: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
+  letter-spacing: 2px;
+  margin-bottom: 3rem;
+}
+
+.readMore__leftContainer__description {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 100;
+  color: white;
+  letter-spacing: 1px;
+  margin-bottom: 3rem;
+}
+
+.readMore__bookClass {
+  position: absolute;
+  bottom: 0%;
+  right: 0;
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 2rem 4rem;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.readMore__bookClass:hover {
+  background: linear-gradient(109.6deg, #f5f7fa, #b8c6db);
+  color: black;
+  transition: all 0.5s ease-in-out;
+}
+
+.readMore__RightImage {
+  position: absolute;
+  top: 90%;
+  left: 40%;
+  width: 55%;
+  height: 80%;
+  z-index: 1;
+}
+
+.readMore__left__leftContainer {
+  position: absolute;
+  top: 150%;
+  right: 35%;
+  margin-top: 3rem;
+  padding: 5rem;
+  width: 50%;
+  height: auto;
+
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(248, 137, 34) 11.2%,
+    rgb(255, 194, 48) 100.2%
+  );
+  z-index: 0;
+}
+
+.readMore__left__leftContainer__heading {
+  font-family: "Open-sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  color: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
+  letter-spacing: 2px;
+  margin-bottom: 3rem;
+}
+
+.readMore__left__leftContainer__description {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 100;
+  color: white;
+  letter-spacing: 1px;
+  margin-bottom: 3rem;
+}
